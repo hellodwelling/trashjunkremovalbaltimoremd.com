@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Trash Removal Junk Removal Hauling &amp; Donation Moma Services" property="og:title">
+
     
     <title>
          
@@ -44,7 +45,7 @@
   <div x-data="{ open: false }" class="flex flex-col lg:flex-r max-w-screen-xl px-4 mx-auto lg:items-center lg:justify-between lg:flex-row lg:px-6 lg:px-8">
     <div class="py-4 flex flex-row items-center justify-between">
         
-        <a href="#" class="text-lg font-bold tracking-widest  text-gray-900  uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Trash Removal Junk Removal Hauling &amp; Donation Moma Services</a>
+        <a href="index" class="text-lg font-bold tracking-widest  text-gray-900  uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Trash Removal Junk Removal Hauling &amp; Donation Moma Services</a>
       
       <button class="lg:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
         <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -102,7 +103,7 @@
       
           <a target = "_blank"  x-on:click.prevent="open = true" class="" href="">Send us a Text</a>
             <div x-show.transition.opacity="open" class="transform-none p-4 fixed h-screen w-screen flex justify-center items-center bottom-0 right-0 bg-black bg-opacity-75 z-50">
-    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
+    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5 z-50">
             <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
         <div class="block mb-4 border border-gray-200 rounded-lg">
             <input type="text" name="first-name" id="0-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
@@ -141,11 +142,16 @@ class="flex relative flex-col w-full  bg-gray-900 text-white  lg:flex-row lg:fle
     <div class="flex justify-end p-8 lg:py-32 lg:px-16 lg:pl-10 lg:w-1/2">
         <div class="flex flex-col items-center lg:items-start justify-center w-full lg:max-w-lg">
             <h2 class="mb-3 text-3xl text-center font-extrabold  leading-none sm:text-4xl lg:text-7xl text-center lg:text-left">
-                Trash Removal Junk Removal Hauling &amp; Donation Moma Services  
+                Trash Removal Junk Removal Hauling &amp; Donation Moma Services 
             </h2>
             
             <h1 class="pt-5 lg:text-xl text-center lg:text-left">
-                Customer first waste management in  Baltimore & surrounding areas.  Exceptional, Professional Waste Management. You Are Always Our Priority.
+                <!--  
+                    Customer first waste management in
+                     Baltimore & surrounding areas.
+                     
+                  -->
+                Exceptional, Professional Waste Management. You Are Always Our Priority.
             </h1>
             
             <h2 class="py-5 mb-5 lg:text-xl text-center lg:text-left">
@@ -167,7 +173,7 @@ class="flex relative flex-col w-full  bg-gray-900 text-white  lg:flex-row lg:fle
  id="" type="button" x-on:click.prevent="open = true" class=" 
   w-full lg:w-auto 
 
-    inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-gray-400 text-white hover:bg-white hover:text-gray-900">
+    inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-gray-400 text-white hover:bg-white hover:text-gray-900 z-30">
     <h5 class="text-3xl font-extrabold">Call Now</h5> 
 </button>
 
@@ -179,7 +185,7 @@ class="flex relative flex-col w-full  bg-gray-900 text-white  lg:flex-row lg:fle
                 <div id="cover-button" class="w-full lg:w-auto ">
                     
  
-    <div id="" class="flex text-center justify-center items-center z-50 w-full lg:w-auto " x-data="{open: false}">
+    <div id="" class="flex text-center justify-center items-center  w-full lg:w-auto " x-data="{open: false}">
         
 <button 
  
@@ -190,12 +196,12 @@ class="flex relative flex-col w-full  bg-gray-900 text-white  lg:flex-row lg:fle
  id="" type="button" x-on:click.prevent="open = true" class=" 
   w-full lg:w-auto 
 
-    inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-gray-400 text-white hover:bg-white hover:text-gray-900">
+    inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-gray-400 text-white hover:bg-white hover:text-gray-900 z-30">
     <h5 class="text-3xl font-extrabold">Send us a Text</h5> 
 </button>
 
         <div x-show.transition.opacity="open" class="transform-none p-4 fixed h-screen w-screen flex justify-center items-center bottom-0 right-0 bg-black bg-opacity-75 z-50">
-    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
+    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5 z-50">
             <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
         <div class="block mb-4 border border-gray-200 rounded-lg">
             <input type="text" name="first-name" id="1-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
@@ -230,7 +236,7 @@ class="flex relative flex-col w-full  bg-gray-900 text-white  lg:flex-row lg:fle
                 <div>
                     
  
-    <div id="" class="flex text-center justify-center items-center z-50 w-full lg:w-auto " x-data="{open: false}">
+    <div id="" class="flex text-center justify-center items-center  w-full lg:w-auto " x-data="{open: false}">
         
 <button 
  
@@ -241,12 +247,12 @@ class="flex relative flex-col w-full  bg-gray-900 text-white  lg:flex-row lg:fle
  id="side-button" type="button" x-on:click.prevent="open = true" class=" 
   
 
-   mb-3 fixed bottom-0 -right-80 z-10 mr-3 lg:mr-0 z-50 inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-gray-400 text-white hover:bg-white hover:text-gray-900">
+   mb-3 fixed bottom-0 -right-80 z-10 mr-3 lg:mr-0 z-40 inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-gray-400 text-white hover:bg-white hover:text-gray-900 z-30">
     <h5 class="text-3xl font-extrabold">Send us a Text</h5> 
 </button>
 
         <div x-show.transition.opacity="open" class="transform-none p-4 fixed h-screen w-screen flex justify-center items-center bottom-0 right-0 bg-black bg-opacity-75 z-50">
-    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
+    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5 z-50">
             <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
         <div class="block mb-4 border border-gray-200 rounded-lg">
             <input type="text" name="first-name" id="2-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
@@ -284,7 +290,9 @@ class="flex relative flex-col w-full  bg-gray-900 text-white  lg:flex-row lg:fle
     <div class="relative order-first lg:order-last block lg:w-1/2 ">
 
     
-        <img src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Z0XKZ9D7L5KZH5RED1HO0QCVJB2AULZ61Q6EVM96.gif"  alt = "Main hero image of Trash Removal Junk Removal Hauling &amp; Donation Moma Services performing Waste Management work"  class="object-cover w-full lg:absolute h-80 lg:h-full">
+        
+            <img src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Z0XKZ9D7L5KZH5RED1HO0QCVJB2AULZ61Q6EVM96.gif"   alt = "Main hero image of Trash Removal Junk Removal Hauling &amp; Donation Moma Services performing Waste Management work"  class="object-cover w-full lg:absolute h-80 lg:h-full">
+            
     
     </div>
 
@@ -345,6 +353,20 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
     </div>
 
                 
+    <div 
+     style= "color:#537e4b"   
+    class="pb-30 mx-auto w-1/3   text-gray-400 " data-aos="fade-down" data-aos-delay="400" >
+        <span> <i class="fas fa-certificate fa-2x "></i> </span>
+        <div class="mt-5 text-md font-bold uppercase ">
+            Black Owned Business
+        </div>
+
+        
+        
+        <br>
+    </div>
+
+                
                 
             
             </div>
@@ -360,7 +382,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     
     <a 
     target="_blank" 
-    href = "https://www.facebook.com/trashjunkremovalbaltimore/?ref=page_internal"> 
+    href = "www.facebook.com/trashjunkremovalbaltimore/?ref=page_internal"> 
         <span 
              
                 style= "color:#537e4b " 
@@ -377,7 +399,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     
     <a 
     target="_blank" 
-    href = "https://www.google.com/maps/place/Trash+removal+junk+removal+hauling+and+donations+Moma+services/@39.3027118,-76.7490048,15z/data=!4m5!3m4!1s0x0:0xb2fb92086788cb60!8m2!3d39.3027118!4d-76.7490048"> 
+    href = "www.google.com/maps/place/trash+removal+junk+removal+hauling+and+donations+moma+services/@39.3027118,-76.7490048,15z/data=!4m5!3m4!1s0x0:0xb2fb92086788cb60!8m2!3d39.3027118!4d-76.7490048"> 
         <span 
              
                 style= "color:#537e4b " 
@@ -513,10 +535,50 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                         </div>
                     </div>
                 </div>        
+                    
+                <div class="max-w-xs col-span-4 font-sans border-0 border-gray-200 ">
+                    <div class="box-border flex flex-col items-center  h-full px-2 py-4 md:py-8 mx-4 leading-6 text-center border-solid ">
+                        
+                        <div  class="md:mt-6 font-sans text-center border-0 border-gray-200 ">
+                            <h3  style= "color:#537e4b"  class="box-border text-xl font-bold leading-none tracking-wider border-solid text-gray-400  ">Garbage Removal</h3>
+                            <p
+                                class="box-border mx-0 mt-3 mb-0 font-normal leading-snug text-center border-solid">
+                                We provide a Garbage Removal service to help homeowners clear out their homes of unwanted and unused items. We can remove any type of garbage, including furniture, appliances, and construction debris.
+                            </p>
+                        </div>
+                    </div>
+                </div>        
+                    
+                <div class="max-w-xs col-span-4 font-sans border-0 border-gray-200 ">
+                    <div class="box-border flex flex-col items-center  h-full px-2 py-4 md:py-8 mx-4 leading-6 text-center border-solid ">
+                        
+                        <div  class="md:mt-6 font-sans text-center border-0 border-gray-200 ">
+                            <h3  style= "color:#537e4b"  class="box-border text-xl font-bold leading-none tracking-wider border-solid text-gray-400  ">House Cleaning</h3>
+                            <p
+                                class="box-border mx-0 mt-3 mb-0 font-normal leading-snug text-center border-solid">
+                                Our House Cleaning service is a great way to get your home clean and organized without having to do the work yourself. We will come in and clean every room in your house, as well as take care of any laundry or dishes that need to be done.
+                            </p>
+                        </div>
+                    </div>
+                </div>        
+                    
+                <div class="max-w-xs col-span-4 font-sans border-0 border-gray-200 ">
+                    <div class="box-border flex flex-col items-center  h-full px-2 py-4 md:py-8 mx-4 leading-6 text-center border-solid ">
+                        
+                        <div  class="md:mt-6 font-sans text-center border-0 border-gray-200 ">
+                            <h3  style= "color:#537e4b"  class="box-border text-xl font-bold leading-none tracking-wider border-solid text-gray-400  ">Donation Pick Up</h3>
+                            <p
+                                class="box-border mx-0 mt-3 mb-0 font-normal leading-snug text-center border-solid">
+                                If you have extra household items that you would like to donate, we can help! We'll come and pick up your donations for free. We will then donate them to a local charity or organization.
+                            </p>
+                        </div>
+                    </div>
+                </div>        
             
             </div>
         </div>
     </section>
+    
     
     
     
@@ -525,51 +587,52 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2  style= "color:#ea5c2b" class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Our Best Work</h2>
             <h2  style= "color:#537e4b" class="my-3 mb-10 text-xl font-medium  text-gray-400  text-center">See why our customers love us</h2>
-            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/HRWU48BRLXZAEB80P4F44SKUZ0L2J1DGX032R1SH.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/GQA56GUFQ8M0NJ99O30OICTG4FWPADMV8TMYMTPN.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/PNFKQQPJ2V5GXX63WY6NEKM963BGIF6BBQAWB2RW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/0CZWOYLP320A91J0VRYB4ZMK5VQCD7N7J8ETK7Z2.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/91E3XD5BSFIQDGDCIOITHDF2GH33KEX7FI0N6FUN.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DVHOV6C3LACW4F0QTSBO8EU1F4WSN18FKEXMZBB4.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/WHFNT6ZS7JVTXO68NBEBF7A0E8B8U2TW1VO0PHMU.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/NLVZPRY1BFPU48QYU9MIML90MT8AV59C1LQA4MXK.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/H0UI5BJ9Q85YY89MA8YD50Y8OUBETTVQEIJ8J673.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
+            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/HRWU48BRLXZAEB80P4F44SKUZ0L2J1DGX032R1SH.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/GQA56GUFQ8M0NJ99O30OICTG4FWPADMV8TMYMTPN.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/PNFKQQPJ2V5GXX63WY6NEKM963BGIF6BBQAWB2RW.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0CZWOYLP320A91J0VRYB4ZMK5VQCD7N7J8ETK7Z2.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/91E3XD5BSFIQDGDCIOITHDF2GH33KEX7FI0N6FUN.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/DVHOV6C3LACW4F0QTSBO8EU1F4WSN18FKEXMZBB4.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/WHFNT6ZS7JVTXO68NBEBF7A0E8B8U2TW1VO0PHMU.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/NLVZPRY1BFPU48QYU9MIML90MT8AV59C1LQA4MXK.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/H0UI5BJ9Q85YY89MA8YD50Y8OUBETTVQEIJ8J673.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
+                <!-- <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/HRWU48BRLXZAEB80P4F44SKUZ0L2J1DGX032R1SH.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/GQA56GUFQ8M0NJ99O30OICTG4FWPADMV8TMYMTPN.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/PNFKQQPJ2V5GXX63WY6NEKM963BGIF6BBQAWB2RW.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/0CZWOYLP320A91J0VRYB4ZMK5VQCD7N7J8ETK7Z2.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/91E3XD5BSFIQDGDCIOITHDF2GH33KEX7FI0N6FUN.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/DVHOV6C3LACW4F0QTSBO8EU1F4WSN18FKEXMZBB4.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/WHFNT6ZS7JVTXO68NBEBF7A0E8B8U2TW1VO0PHMU.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/NLVZPRY1BFPU48QYU9MIML90MT8AV59C1LQA4MXK.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/H0UI5BJ9Q85YY89MA8YD50Y8OUBETTVQEIJ8J673.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   > -->
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/HRWU48BRLXZAEB80P4F44SKUZ0L2J1DGX032R1SH.jpeg"  alt = "Photo number 1 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/HRWU48BRLXZAEB80P4F44SKUZ0L2J1DGX032R1SH.jpeg"  alt = "Photo number 1 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/HRWU48BRLXZAEB80P4F44SKUZ0L2J1DGX032R1SH.jpeg"  alt = "Photo number 1 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div> -->
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/GQA56GUFQ8M0NJ99O30OICTG4FWPADMV8TMYMTPN.jpeg"  alt = "Photo number 2 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/GQA56GUFQ8M0NJ99O30OICTG4FWPADMV8TMYMTPN.jpeg"  alt = "Photo number 2 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/GQA56GUFQ8M0NJ99O30OICTG4FWPADMV8TMYMTPN.jpeg"  alt = "Photo number 2 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div> -->
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/PNFKQQPJ2V5GXX63WY6NEKM963BGIF6BBQAWB2RW.jpeg"  alt = "Photo number 3 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/PNFKQQPJ2V5GXX63WY6NEKM963BGIF6BBQAWB2RW.jpeg"  alt = "Photo number 3 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/PNFKQQPJ2V5GXX63WY6NEKM963BGIF6BBQAWB2RW.jpeg"  alt = "Photo number 3 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div> -->
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/0CZWOYLP320A91J0VRYB4ZMK5VQCD7N7J8ETK7Z2.jpeg"  alt = "Photo number 4 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0CZWOYLP320A91J0VRYB4ZMK5VQCD7N7J8ETK7Z2.jpeg"  alt = "Photo number 4 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0CZWOYLP320A91J0VRYB4ZMK5VQCD7N7J8ETK7Z2.jpeg"  alt = "Photo number 4 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div> -->
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/91E3XD5BSFIQDGDCIOITHDF2GH33KEX7FI0N6FUN.jpeg"  alt = "Photo number 5 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/91E3XD5BSFIQDGDCIOITHDF2GH33KEX7FI0N6FUN.jpeg"  alt = "Photo number 5 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/91E3XD5BSFIQDGDCIOITHDF2GH33KEX7FI0N6FUN.jpeg"  alt = "Photo number 5 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div> -->
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DVHOV6C3LACW4F0QTSBO8EU1F4WSN18FKEXMZBB4.jpeg"  alt = "Photo number 6 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/DVHOV6C3LACW4F0QTSBO8EU1F4WSN18FKEXMZBB4.jpeg"  alt = "Photo number 6 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/DVHOV6C3LACW4F0QTSBO8EU1F4WSN18FKEXMZBB4.jpeg"  alt = "Photo number 6 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div> -->
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/WHFNT6ZS7JVTXO68NBEBF7A0E8B8U2TW1VO0PHMU.jpeg"  alt = "Photo number 7 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/WHFNT6ZS7JVTXO68NBEBF7A0E8B8U2TW1VO0PHMU.jpeg"  alt = "Photo number 7 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/WHFNT6ZS7JVTXO68NBEBF7A0E8B8U2TW1VO0PHMU.jpeg"  alt = "Photo number 7 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div> -->
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/NLVZPRY1BFPU48QYU9MIML90MT8AV59C1LQA4MXK.jpeg"  alt = "Photo number 8 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/NLVZPRY1BFPU48QYU9MIML90MT8AV59C1LQA4MXK.jpeg"  alt = "Photo number 8 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/NLVZPRY1BFPU48QYU9MIML90MT8AV59C1LQA4MXK.jpeg"  alt = "Photo number 8 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div> -->
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/H0UI5BJ9Q85YY89MA8YD50Y8OUBETTVQEIJ8J673.jpeg"  alt = "Photo number 9 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/H0UI5BJ9Q85YY89MA8YD50Y8OUBETTVQEIJ8J673.jpeg"  alt = "Photo number 9 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/H0UI5BJ9Q85YY89MA8YD50Y8OUBETTVQEIJ8J673.jpeg"  alt = "Photo number 9 of Trash Removal Junk Removal Hauling &amp; Donation Moma Services&#x27;s best work performing a null job"   loading="lazy" ></div> -->
                     
                  
                                     
@@ -651,7 +714,6 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
 
             
 </div>
-
         
     
     
@@ -673,65 +735,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                 <div class="items-start justify-start w-full mt-12 mb-4 lg:flex lg:flex-wrap">
 
                     
-            
-                    <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
-                    <div class="flex items-center lg:items-start ">
-                        
-                        <div class="flex flex-col justify-start items-center lg:items-start ">
-                            <h3 class="font-bold  text-white  ">Autunia Ebron</h3>
-                            <h3 class=" text-white ">Valued Customer  , Junk Removal  </h3>
-                            <div class="flex flex-row items-start ">
-                                
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                
-                            </div>
-                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"Thanks guys they where very professional and arrive on time thanks again."</blockquote>                           
-                        </div>
-                    </div>
                     
-                    </div>
-
-                    
-            
-                    <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
-                    <div class="flex items-center lg:items-start ">
-                        
-                        <div class="flex flex-col justify-start items-center lg:items-start ">
-                            <h3 class="font-bold  text-white  ">Stella Moma</h3>
-                            <h3 class=" text-white ">Valued Customer  , Junk Removal  </h3>
-                            <div class="flex flex-row items-start ">
-                                
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
-                                
-                                
-                            </div>
-                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"Great job affordable price."</blockquote>                           
-                        </div>
-                    </div>
-                    
-                    </div>
-
-                    
-            
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -758,13 +762,74 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
+
+                    
+                    
+                    <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
+                    <div class="flex items-center lg:items-start ">
+                        
+                        <div class="flex flex-col justify-start items-center lg:items-start ">
+                            <h3 class="font-bold  text-white  ">Autunia Ebron</h3>
+                            <h3 class=" text-white ">Valued Customer  , Junk Removal  </h3>
+                            <div class="flex flex-row items-start ">
+                                
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                
+                            </div>
+                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"Thanks guys they where very professional and arrive on time thanks again."</blockquote>                           
+                        </div>
+                    </div>
+                    
+                    </div>
+                    
+
+                    
+                    
+                    <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
+                    <div class="flex items-center lg:items-start ">
+                        
+                        <div class="flex flex-col justify-start items-center lg:items-start ">
+                            <h3 class="font-bold  text-white  ">Stella Moma</h3>
+                            <h3 class=" text-white ">Valued Customer  , Junk Removal  </h3>
+                            <div class="flex flex-row items-start ">
+                                
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                <span class = " text-white "> <i class="fas fa-star"> </i> </span>
+                                
+                                
+                            </div>
+                            <blockquote class="mt-8 lg:pr-5 font-bold text-xl text-center lg:text-left   text-white ">"Great job affordable price."</blockquote>                           
+                        </div>
+                    </div>
+                    
+                    </div>
+                    
 
                     
                 </div>  
                 
                 <div class = "flex flex-col space-y-5 md:flex-row md:space-x-5 md:space-y-0 ">
                 
-                <a target= "_blank" href="https://www.google.com/maps/place/Trash+Removal+Junk+Removal+Hauling+and+Donations+Moma+Services/@39.3027118,-76.7490048,15z/data=!4m5!3m4!1s0x0:0xb2fb92086788cb60!8m2!3d39.3027118!4d-76.7490048"  class="w-full">
+                <a target= "_blank" href="www.google.com/maps/place/trash+removal+junk+removal+hauling+and+donations+moma+services/@39.3027118,-76.7490048,15z/data=!4m5!3m4!1s0x0:0xb2fb92086788cb60!8m2!3d39.3027118!4d-76.7490048"  class="w-full">
                     <button  
                 onMouseOver="this.style.backgroundColor='white'; this.style.color='#ea5c2b' "
                 onMouseOut="this.style.backgroundColor='#537e4b'; this.style.color='white'"
@@ -777,7 +842,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                 
              
                 
-                <a target= "_blank" href="https://www.google.com/maps/place/Trash+Removal+Junk+Removal+Hauling+and+Donations+Moma+Services/@39.3027118,-76.7490048,15z/data=!4m5!3m4!1s0x0:0xb2fb92086788cb60!8m2!3d39.3027118!4d-76.7490048" class="w-full">
+                <a target= "_blank" href="www.google.com/maps/place/trash+removal+junk+removal+hauling+and+donations+moma+services/@39.3027118,-76.7490048,15z/data=!4m5!3m4!1s0x0:0xb2fb92086788cb60!8m2!3d39.3027118!4d-76.7490048" class="w-full">
                     <button  
                 onMouseOver="this.style.backgroundColor='white'; this.style.color='#ea5c2b' "
                 onMouseOut="this.style.backgroundColor='#537e4b'; this.style.color='white'"
@@ -908,6 +973,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
 
 </body>
 </html>
+
 
 
 
